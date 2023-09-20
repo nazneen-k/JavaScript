@@ -57,6 +57,7 @@ for (e = 5; e >= 1; e--) {
   }
   document.write("<br> ");
 }
+document.write("<br> <br>");
 
 
 
@@ -66,3 +67,50 @@ for (e = 5; e >= 1; e--) {
 // 321
 // 21
 // 1
+
+for(g=5;g>=1;g--){
+  for(h=g;h>=1;h--)
+  {
+    document.write(h+" ")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
+
+
+
+
+// Kunal Kushwaha Videos 
+// *
+// **
+// ***
+// ****
+// *****
+
+for(i=1;i<=5;i++)
+{
+  for(j=1;j<=i;j++){
+    document.write("*" )
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
+
+
+
+// *****
+// *****
+// *****
+// *****
+// *****
+
+for(k=1;k<=5;k++){
+  for(l=1;l<=5;l++)
+  {
+    document.write("*")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
+
+
