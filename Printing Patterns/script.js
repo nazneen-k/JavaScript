@@ -128,3 +128,19 @@ for(g=5;g>=1;g--){
   document.write("<br>")
 }
 document.write("<br> <br>");
+
+
+
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+for(m=1;m<=5;m++){
+  for(n=1;n<=m;n++){
+    document.write(n+" ")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
