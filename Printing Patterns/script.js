@@ -114,3 +114,17 @@ for(k=1;k<=5;k++){
 document.write("<br> <br>");
 
 
+// *****
+// ****
+// ***
+// **
+// *
+
+for(g=5;g>=1;g--){
+  for(h=g;h>=1;h--)
+  {
+    document.write("*")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
