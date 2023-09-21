@@ -144,3 +144,31 @@ for(m=1;m<=5;m++){
   document.write("<br>")
 }
 document.write("<br> <br>");
+
+
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
+
+for(o=1;o<=5;o++){
+  for(p=1;p<=o;p++){
+    document.write("*")
+  }
+  document.write("<br>")
+}
+for(o=5;o>=1;o--){
+  for(p=o;p>=1;p--){
+    document.write("*")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
