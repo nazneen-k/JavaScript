@@ -172,3 +172,22 @@ for(o=5;o>=1;o--){
   document.write("<br>")
 }
 document.write("<br> <br>");
+
+
+
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
+for(q=1;q<=5;q++){
+  for(r=1;r<=5-q;r++){
+    document.write("&nbsp; ");
+  }
+  for(s=1;s<=q;s++){
+  document.write("*")
+  }
+  document.write("<br>")
+}
+document.write("<br> <br>");
