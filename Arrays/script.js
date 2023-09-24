@@ -181,3 +181,116 @@ aaa.splice(2,0,"Neha","Karan")
 document.write(aaa+"<br>")
 aaa.splice(2,1)
 document.write(aaa+"<br><br>")
+
+
+/* isArray() 
+The Array.isArray() static method determines whether the passed value is an Array.*/
+
+var a1=["Sanjay","Aman","Rehman"]
+var b1=Array.isArray(a)
+document.write(b1+"<br><br>")
+
+/* indexOf()
+indexOf("Search item",Start) */
+
+var a2=["Sanjay","Aman","Rehman","Aman","Rahul"]
+document.write(a2+"<br><br>")
+var b2=a2.indexOf("Aman",2)
+document.write(b2+"<br><br>")
+
+/*lastIndexOf()
+ */
+var c2=a2.lastIndexOf("Aman")
+document.write(c2+"<br><br>")
+
+/*includes()
+-Syntax: includes("Search item")
+-Returns True or False 
+-It is Case Sensitive */
+var d2=a2.includes("Sanjay")
+document.write(d2+"<br><br>")
+
+
+/*Some()
+
+*/
+
+var ages=[10,13,18,20]
+document.write(ages+"<br><br>")
+var check = ages.some(checkAdult)
+document.write(check+"<br><br>")
+
+function checkAdult(age){
+  return age>=18
+}
+
+
+/*Every 
+- Returns True only if and only if All the values are true*/
+
+var ages=[19,19,18,20]
+document.write(ages+"<br><br>")
+var check = ages.every(checkAdult)
+document.write(check+"<br><br>")
+
+function checkAdult(age){
+  return age>=18
+}
+
+
+/* find()
+- find(function Name)
+- Returns only the one values which passes the case at first
+ */
+
+var ages=[10,23,18,20]
+document.write(ages+"<br><br>")
+var check = ages.find(checkAdult)
+document.write(check+"<br><br>")
+
+function checkAdult(age){
+  return age>=18
+}
+
+
+
+
+/* findIndex()
+- It returns the index of the first element in an array that pass a test */
+
+var ages=[10,29,18,20]
+document.write(ages+"<br><br>")
+var check = ages.findIndex(checkAdult)
+document.write(check+"<br><br>")
+
+function checkAdult(age){
+  return age>=18
+}
+
+
+/* filter() */
+
+var ages=[10,29,18,20]
+document.write(ages+"<br><br>")
+var check = ages.filter(checkAdult)
+document.write(check+"<br><br>")
+
+function checkAdult(age){
+  return age>=18
+}
+
+/* toString() */
+
+var a3=["Sanjan","Aman","Rehman"]
+a3.toString();
+document.write(a3+"<br><br>")
+
+/* valueOf() */
+
+
+/* fill() 
+- The fill() method fills all the elements in an array with a static value.
+*/
+var a3=["Sanjan","Aman","Rehman"]
+a.fill("Hello")
+document.write(a)
