@@ -63,4 +63,18 @@ console.log(a)
 console.log(a.firstName)
 document.write(a.firstName+"<br>")
 document.write(a.salary()+"<br>")
-document.write(a.living.city)
+document.write(a.living.city+"<br>")
+
+
+
+/* Another Method of Writing the object */
+
+// var a=new Object();
+
+var person = new Object();
+person.firstName='Ram';
+person.lastName='Kuman';
+person.age=25;
+
+document.write(person.firstName+"<br>")
+document.write(person['age']+"<br>")
