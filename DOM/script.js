@@ -27,3 +27,35 @@ console.log(ele)
 //document.url
 //document.domain
 //document.baseURI
+
+
+//DOM Get and Set Value Methods
+
+/*
+
+Get Method
+
+Using get we can get the : HTML, Text and Attribute.
+
+-innerText
+-innerHTML
+-getAttribute
+-getAttributeNode
+-Attributes
+*/
+
+// var element
+// element = document.getElementById(container).innerHTML="<h1> Hello</h1>"
+// console.log(element)
+
+//DOM Set Methods
+/*
+-innerText
+-innerHTML
+-setAttribute
+-Attribute
+-removeAttribute
+*/
+
+
+/*DOM querySelector() & querySelectorAll() */
