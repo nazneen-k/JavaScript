@@ -143,3 +143,47 @@ useCapture--> True or False*/
 
 /*
 removeEventListener("ondbclick",functionName) */
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/* DOM classList() Methods */
+
+/* 
+-add(class1,class2,....)
+-remove(class1,class2,.....)
+-toggle(class)
+-contains(class)
+-item(index)
+-length
+
+*/
+
+var elem
+
+document.getElementById('header').addEventListener("click",abb)
+
+function abb(){
+    document.getElementById('header').classList.add('xyz')
+}
+
+
+
+
+/*DOM Traversal Methods
+
+-parentNode
+-ParentElement
+_Children
+-childNodes
+-firstChild
+-firstElementChild
+-lastChild
+-lastElementChild
+-nextElementSibling
+-nextSibling
+-previousElementSibling
+-previousSibling
+*/
+
+
+
