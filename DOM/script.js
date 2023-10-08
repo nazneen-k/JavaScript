@@ -186,4 +186,38 @@ _Children
 */
 
 
+//--------------------------------------------------------------------------------
+/* DOM Create Methods */
 
+/*
+-createElement 
+-createTextNode
+-createComment
+
+
+-These methods are used to create HTML elements in the JavaScript File 
+
+*/
+
+var newElement = document.createElement("p")
+console.log(newElement)
+
+var newText = document.createTextNode("Hello")
+console.log(newText)
+
+var newComment = document.createComment("This is a Comment")
+console.log(newComment)
+
+
+//-------------------------------------------------------------------------
+/*DOM Append Methods 
+
+
+
+-appendChild
+-insertBefore
+*/
+
+newElement.appendChild(newText)
+document.getElementById('header').appendChild(newElement)
+console.log(newElement)
