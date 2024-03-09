@@ -25,13 +25,13 @@ document.write(c+"<br>")
 
 //Roadsidecoder Interview Series
 
+var arr = [12, 23, 34, 56, 78];
+var multipliedByThree = arr.map((value) => {
+  return value * 3;
+});
+console.log(multipliedByThree);
+document.write(multiByThree+"<br>")
 
-var arr=[12,23,34,56,78]
-var multiByTwo = arr.map((value,i,arr)=>{
-  return value*3;
-})
-console.log(multiByTwo)
-document.write(multiByTwo+"<br>")
 
 
 const arrrr=[3,4,5,6,7]
